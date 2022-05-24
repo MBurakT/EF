@@ -1,4 +1,10 @@
-﻿using ContosoPizza.Data;
+﻿//Package Manager Console:
+//Add-Migration InitialCreate
+//Update-Database
+//Add-Migration AddEmail
+//Update-Database
+
+using ContosoPizza.Data;
 using ContosoPizza.Models;
 
 using ContosoPizzaContext context  = new ContosoPizzaContext();
